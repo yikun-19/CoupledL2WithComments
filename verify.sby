@@ -1,0 +1,24 @@
+[options]
+mode bmc
+depth 20
+
+[engines]
+smtbmc boolector
+
+[script]
+read_verilog -sv TestTop.v TLLogWriter.v
+prep -top TestTop_L2L3L2 -nordff
+
+[files]
+TestTop.v
+L2MPWriter.v                          
+L2PrefetchLate_rolling_0Writer.v
+chisel_db.cpp
+L2PrefetchAccuracy_rolling_0Writer.v  
+STD_CLKGT_func.v                  
+TestTop_L2L3L2.anno.json  
+chisel_db.h
+L2PrefetchCoverage_rolling_0Writer.v  
+TLLogWriter.v                     
+TestTop_L2L3L2.fir        
+firrtl_black_box_resource_files.f

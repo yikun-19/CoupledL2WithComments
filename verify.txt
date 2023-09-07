@@ -1,0 +1,6 @@
+
+g++ chisel_db.cpp -fPIC -shared -o chisel_db_verify.so
+
+yosys -p 'plugin -a TLLog_write -i chisel_db_verify.so; read_verilog TLLogWriter.v'
+
+sudo sby verify.sby -f

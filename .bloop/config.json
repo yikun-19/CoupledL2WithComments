@@ -1,0 +1,83 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "config",
+        "directory": "/home/yikun/workspace/CoupledL2/rocket-chip/api-config-chipsalliance/design/craft",
+        "workspaceDir": "/home/yikun/workspace/CoupledL2",
+        "sources": [
+            "/home/yikun/workspace/CoupledL2/rocket-chip/api-config-chipsalliance/design/craft/src"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/home/yikun/workspace/CoupledL2/.coursier/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar"
+        ],
+        "out": "/home/yikun/workspace/CoupledL2/.bloop/out/foreign-modules.rocket-chip.api-config-chipsalliance.build-rules.mill.config",
+        "classesDir": "/home/yikun/workspace/CoupledL2/.bloop/out/foreign-modules.rocket-chip.api-config-chipsalliance.build-rules.mill.config/classes",
+        "resources": [
+            "/home/yikun/workspace/CoupledL2/rocket-chip/api-config-chipsalliance/design/craft/resources"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.13",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/yikun/workspace/CoupledL2/.coursier/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.13/scala-compiler-2.12.13.jar",
+                "/home/yikun/workspace/CoupledL2/.coursier/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.13/scala-reflect-2.12.13.jar",
+                "/home/yikun/workspace/CoupledL2/.coursier/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar",
+                "/home/yikun/workspace/CoupledL2/.coursier/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar"
+            ]
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-8-openjdk-amd64/jre",
+                "options": [
+                    "-Duser.dir=/home/yikun/workspace/CoupledL2"
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "classpath": [
+                "/home/yikun/workspace/CoupledL2/rocket-chip/api-config-chipsalliance/design/craft/resources",
+                "/home/yikun/workspace/CoupledL2/.coursier/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar"
+            ],
+            "resources": [
+                "/home/yikun/workspace/CoupledL2/rocket-chip/api-config-chipsalliance/design/craft/resources"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.13",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/yikun/workspace/CoupledL2/.coursier/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/yikun/workspace/CoupledL2/.coursier/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

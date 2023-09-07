@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(CoupledL2/test::runMain coupledL2.TestTop_L2L3L2, Some(b9b055af-edff-4cb3-a26a-7bd3253de5a5), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mExpected key[0m
+[0m[[0m[31merror[0m] [0m[0mExpected end of input.[0m
+[0m[[0m[31merror[0m] [0m[0mNo such setting/task[0m
+[0m[[0m[31merror[0m] [0m[0mCoupledL2/test::runMain coupledL2.TestTop_L2L3L2[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

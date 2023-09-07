@@ -1,0 +1,1435 @@
+2023.08.24 16:29:17 INFO  Started: Metals version 1.0.0 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Aug 24, 2023 4:29:17 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 24, 2023 4:29:17 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 24, 2023 4:29:17 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 24, 2023 4:29:18 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Aug 24, 2023 4:29:18 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug 24, 2023 4:29:18 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.022s)
+Aug 24, 2023 4:29:18 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug 24, 2023 4:29:18 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug 24, 2023 4:29:18 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug 24, 2023 4:29:18 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug 24, 2023 4:29:18 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug 24, 2023 4:29:18 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug 24, 2023 4:29:18 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.027s)
+2023.08.24 16:29:18 INFO  time: initialize in 0.76s[0m
+2023.08.24 16:29:18 WARN  Build server is not auto-connectable.[0m
+2023.08.24 16:29:18 WARN  no build target for: /home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/CoupledL2.scala[0m
+2023.08.24 16:29:18 WARN  no build target for: /home/yikun/workspace/CoupledL2/src/test/scala/TestTop.scala[0m
+2023.08.24 16:29:18 WARN  no build target for: /home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Slice.scala[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.08.24 16:31:09 INFO  no build target found for /home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/CoupledL2.scala. Using presentation compiler with project's scala-library version: 3.3.0[0m
+Aug 24, 2023 4:31:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+2023.08.24 16:31:13 INFO  time: code lens generation in 1m53s[0m
+2023.08.24 16:31:26 WARN  no build target for: /home/yikun/workspace/CoupledL2/src/test/scala/TestTop.scala[0m
+2023.08.24 16:31:31 INFO  Shutting down server[0m
+2023.08.24 16:31:31 INFO  shutting down Metals[0m
+2023.08.24 16:31:31 INFO  Exiting server[0m
+2023.08.24 16:32:23 INFO  Started: Metals version 1.0.0 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Aug 24, 2023 4:32:23 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 24, 2023 4:32:23 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 24, 2023 4:32:23 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 24, 2023 4:32:24 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Aug 24, 2023 4:32:24 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.086s)
+Aug 24, 2023 4:32:24 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 24, 2023 4:32:24 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.24 16:32:24 INFO  time: initialize in 1.28s[0m
+2023.08.24 16:32:26 WARN  Build server is not auto-connectable.[0m
+2023.08.24 16:32:26 WARN  no build target for: /home/yikun/workspace/CoupledL2/src/test/scala/TestTop.scala[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.08.24 16:32:29 INFO  no build target found for /home/yikun/workspace/CoupledL2/src/test/scala/TestTop.scala. Using presentation compiler with project's scala-library version: 3.3.0[0m
+Aug 24, 2023 4:32:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Aug 24, 2023 4:32:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2023.08.24 16:32:37 INFO  running '/home/yikun/workspace/CoupledL2/.metals/millw --mill-version 0.9.8 --predef /tmp/metals1048649732868776971/predef.sc mill.contrib.bloop.Bloop/install'[0m
+2023.08.24 16:32:39 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-contrib-bloop_2.13/0.9.8/mill-contrib-bloop_2.13-0.9.8.pom[0m
+2023.08.24 16:32:41 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-contrib-bloop_2.13/0.9.8/mill-contrib-bloop_2.13-0.9.8.pom[0m
+2023.08.24 16:32:41 INFO  Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/1.4.6-33-1c6f6712/bloop-config_2.13-1.4.6-33-1c6f6712.pom[0m
+2023.08.24 16:32:41 INFO  Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/1.4.6-33-1c6f6712/bloop-config_2.13-1.4.6-33-1c6f6712.pom[0m
+2023.08.24 16:32:41 INFO  Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.13/2.4.0/jsoniter-scala-core_2.13-2.4.0.pom[0m
+2023.08.24 16:32:41 INFO  Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.13/2.4.0/jsoniter-scala-core_2.13-2.4.0.pom[0m
+2023.08.24 16:32:41 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-contrib-bloop_2.13/0.9.8/mill-contrib-bloop_2.13-0.9.8-sources.jar[0m
+2023.08.24 16:32:41 INFO  Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/1.4.6-33-1c6f6712/bloop-config_2.13-1.4.6-33-1c6f6712.jar[0m
+2023.08.24 16:32:41 INFO  Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.13/2.4.0/jsoniter-scala-core_2.13-2.4.0-sources.jar[0m
+2023.08.24 16:32:41 INFO  Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/1.4.6-33-1c6f6712/bloop-config_2.13-1.4.6-33-1c6f6712-sources.jar[0m
+2023.08.24 16:32:41 INFO  Downloading https://repo1.maven.org/maven2/com/lihaoyi/mill-contrib-bloop_2.13/0.9.8/mill-contrib-bloop_2.13-0.9.8.jar[0m
+2023.08.24 16:32:41 INFO  Downloading https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.13/2.4.0/jsoniter-scala-core_2.13-2.4.0.jar[0m
+2023.08.24 16:32:42 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-contrib-bloop_2.13/0.9.8/mill-contrib-bloop_2.13-0.9.8-sources.jar[0m
+2023.08.24 16:32:44 INFO  Downloaded https://repo1.maven.org/maven2/com/lihaoyi/mill-contrib-bloop_2.13/0.9.8/mill-contrib-bloop_2.13-0.9.8.jar[0m
+2023.08.24 16:32:44 INFO  Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/1.4.6-33-1c6f6712/bloop-config_2.13-1.4.6-33-1c6f6712-sources.jar[0m
+2023.08.24 16:32:44 INFO  Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.13/2.4.0/jsoniter-scala-core_2.13-2.4.0.jar[0m
+2023.08.24 16:32:45 INFO  Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.13/1.4.6-33-1c6f6712/bloop-config_2.13-1.4.6-33-1c6f6712.jar[0m
+2023.08.24 16:32:45 INFO  Downloaded https://repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.13/2.4.0/jsoniter-scala-core_2.13-2.4.0-sources.jar[0m
+2023.08.24 16:32:45 INFO  Compiling /tmp/metals1048649732868776971/predef.sc[0m
+2023.08.24 16:32:51 INFO  Compiling /home/yikun/workspace/CoupledL2/rocket-chip/common.sc[0m
+2023.08.24 16:32:54 INFO  Compiling /home/yikun/workspace/CoupledL2/rocket-chip/api-config-chipsalliance/build-rules/mill/build.sc[0m
+2023.08.24 16:32:55 INFO  Compiling /home/yikun/workspace/CoupledL2/rocket-chip/hardfloat/build.sc[0m
+2023.08.24 16:32:57 INFO  Compiling /home/yikun/workspace/CoupledL2/build.sc[0m
+2023.08.24 16:32:59 INFO  [1/278] CoupledL2.sources [0m
+2023.08.24 16:32:59 INFO  [2/278] CoupledL2.generatedSources [0m
+2023.08.24 16:32:59 INFO  [3/278] CoupledL2.allSources [0m
+2023.08.24 16:32:59 INFO  [4/278] CoupledL2.test.sources [0m
+2023.08.24 16:32:59 INFO  [5/278] CoupledL2.test.generatedSources [0m
+2023.08.24 16:32:59 INFO  [6/278] CoupledL2.test.allSources [0m
+2023.08.24 16:32:59 INFO  [7/278] rocketchip.sources [0m
+2023.08.24 16:32:59 INFO  [8/278] rocketchip.generatedSources [0m
+2023.08.24 16:32:59 INFO  [9/278] rocketchip.allSources [0m
+2023.08.24 16:32:59 INFO  [10/278] config.sources [0m
+2023.08.24 16:32:59 INFO  [11/278] config.generatedSources [0m
+2023.08.24 16:32:59 INFO  [12/278] config.allSources [0m
+2023.08.24 16:32:59 INFO  [13/278] hardfloat.sources [0m
+2023.08.24 16:32:59 INFO  [14/278] hardfloat.generatedSources [0m
+2023.08.24 16:32:59 INFO  [15/278] hardfloat.allSources [0m
+2023.08.24 16:32:59 INFO  [16/278] hardfloat.test.sources [0m
+2023.08.24 16:32:59 INFO  [17/278] hardfloat.test.generatedSources [0m
+2023.08.24 16:32:59 INFO  [18/278] hardfloat.test.allSources [0m
+2023.08.24 16:32:59 INFO  [19/278] rocketchip.macros.sources [0m
+2023.08.24 16:32:59 INFO  [20/278] rocketchip.macros.generatedSources [0m
+2023.08.24 16:32:59 INFO  [21/278] rocketchip.macros.allSources [0m
+2023.08.24 16:32:59 INFO  [22/278] rocketchip.test.sources [0m
+2023.08.24 16:32:59 INFO  [23/278] rocketchip.test.generatedSources [0m
+2023.08.24 16:32:59 INFO  [24/278] rocketchip.test.allSources [0m
+2023.08.24 16:32:59 INFO  [25/278] utility.sources [0m
+2023.08.24 16:32:59 INFO  [26/278] utility.generatedSources [0m
+2023.08.24 16:32:59 INFO  [27/278] utility.allSources [0m
+2023.08.24 16:32:59 INFO  [28/278] huancun.sources [0m
+2023.08.24 16:32:59 INFO  [29/278] huancun.generatedSources [0m
+2023.08.24 16:32:59 INFO  [30/278] huancun.allSources [0m
+2023.08.24 16:32:59 INFO  [31/278] mill.contrib.bloop.BloopImpl.moduleSourceMap [0m
+2023.08.24 16:32:59 INFO  [32/278] CoupledL2.unmanagedClasspath [0m
+2023.08.24 16:32:59 INFO  [33/278] rocketchip.unmanagedClasspath [0m
+2023.08.24 16:32:59 INFO  [34/278] rocketchip.macros.unmanagedClasspath [0m
+2023.08.24 16:32:59 INFO  [35/278] hardfloat.unmanagedClasspath [0m
+2023.08.24 16:32:59 INFO  [36/278] config.unmanagedClasspath [0m
+2023.08.24 16:32:59 INFO  [37/278] utility.unmanagedClasspath [0m
+2023.08.24 16:32:59 INFO  [38/278] huancun.unmanagedClasspath [0m
+2023.08.24 16:32:59 INFO  [39/278] CoupledL2.scalaVersion [0m
+2023.08.24 16:32:59 INFO  [40/278] CoupledL2.platformSuffix [0m
+2023.08.24 16:32:59 INFO  [41/278] CoupledL2.compileIvyDeps [0m
+2023.08.24 16:32:59 INFO  [42/278] CoupledL2.transitiveCompileIvyDeps [0m
+2023.08.24 16:32:59 INFO  [43/278] CoupledL2.ivyDeps.overriden.mill.scalalib.JavaModule.ivyDeps [0m
+2023.08.24 16:32:59 INFO  [44/278] CoupledL2.ivyDeps [0m
+2023.08.24 16:32:59 INFO  [45/278] rocketchip.scalaVersion [0m
+2023.08.24 16:32:59 INFO  [46/278] rocketchip.scalaOrganization [0m
+2023.08.24 16:32:59 INFO  [47/278] rocketchip.ivyDeps [0m
+2023.08.24 16:32:59 INFO  [48/278] rocketchip.macros.ivyDeps [0m
+2023.08.24 16:32:59 INFO  [49/278] rocketchip.macros.transitiveIvyDeps [0m
+2023.08.24 16:32:59 INFO  [50/278] hardfloat.ivyDeps.overriden.mill.scalalib.JavaModule.ivyDeps [0m
+2023.08.24 16:32:59 INFO  [51/278] hardfloat.ivyDeps [0m
+2023.08.24 16:32:59 INFO  [52/278] hardfloat.transitiveIvyDeps [0m
+2023.08.24 16:32:59 INFO  [53/278] config.ivyDeps [0m
+2023.08.24 16:32:59 INFO  [54/278] config.transitiveIvyDeps [0m
+2023.08.24 16:32:59 INFO  [55/278] rocketchip.transitiveIvyDeps [0m
+2023.08.24 16:32:59 INFO  [56/278] utility.ivyDeps [0m
+2023.08.24 16:32:59 INFO  [57/278] utility.transitiveIvyDeps [0m
+2023.08.24 16:32:59 INFO  [58/278] huancun.ivyDeps [0m
+2023.08.24 16:32:59 INFO  [59/278] huancun.transitiveIvyDeps [0m
+2023.08.24 16:32:59 INFO  [60/278] CoupledL2.transitiveIvyDeps [0m
+2023.08.24 16:32:59 INFO  [61/278] CoupledL2.scalaOrganization [0m
+2023.08.24 16:32:59 INFO  [62/278] CoupledL2.scalaLibraryIvyDeps [0m
+2023.08.24 16:32:59 INFO  [63/278] CoupledL2.resources [0m
+2023.08.24 16:32:59 INFO  [64/278] CoupledL2.scalacPluginIvyDeps [0m
+2023.08.24 16:32:59 INFO  [65/278] CoupledL2.scalacPluginClasspath [0m
+2023.08.24 16:32:59 INFO  [66/278] CoupledL2.scalacOptions [0m
+2023.08.24 16:32:59 INFO  [67/278] CoupledL2.scalaCompilerClasspath [0m
+2023.08.24 16:32:59 INFO  [68/278] CoupledL2.javacOptions [0m
+2023.08.24 16:32:59 INFO  [69/278] CoupledL2.forkArgs [0m
+2023.08.24 16:32:59 INFO  [70/278] CoupledL2.mainClass [0m
+2023.08.24 16:32:59 INFO  [71/278] rocketchip.resources [0m
+2023.08.24 16:32:59 INFO  [72/278] mill.scalalib.ZincWorkerModule.classpath [0m
+2023.08.24 16:33:01 INFO  [73/278] mill.scalalib.ZincWorkerModule.worker [0m
+2023.08.24 16:33:01 INFO  [74/278] rocketchip.macros.upstreamCompileOutput [0m
+2023.08.24 16:33:01 INFO  [75/278] rocketchip.macros.allSourceFiles [0m
+2023.08.24 16:33:01 INFO  [76/278] rocketchip.macros.transitiveLocalClasspath [0m
+2023.08.24 16:33:01 INFO  [77/278] rocketchip.macros.resources [0m
+2023.08.24 16:33:01 INFO  [78/278] rocketchip.macros.scalaVersion [0m
+2023.08.24 16:33:01 INFO  [79/278] rocketchip.macros.platformSuffix [0m
+2023.08.24 16:33:01 INFO  [80/278] rocketchip.macros.compileIvyDeps [0m
+2023.08.24 16:33:01 INFO  [81/278] rocketchip.macros.transitiveCompileIvyDeps [0m
+2023.08.24 16:33:01 INFO  [82/278] rocketchip.macros.scalaOrganization [0m
+2023.08.24 16:33:01 INFO  [83/278] rocketchip.macros.scalaLibraryIvyDeps [0m
+2023.08.24 16:33:01 INFO  [84/278] rocketchip.macros.resolvedIvyDeps [0m
+2023.08.24 16:33:01 INFO  [85/278] rocketchip.macros.compileClasspath [0m
+2023.08.24 16:33:01 INFO  [86/278] rocketchip.macros.javacOptions [0m
+2023.08.24 16:33:01 INFO  [87/278] rocketchip.macros.scalacOptions [0m
+2023.08.24 16:33:01 INFO  [88/278] rocketchip.macros.scalaCompilerClasspath [0m
+2023.08.24 16:33:01 INFO  [89/278] rocketchip.macros.scalacPluginIvyDeps [0m
+2023.08.24 16:33:01 INFO  [90/278] rocketchip.macros.scalacPluginClasspath [0m
+2023.08.24 16:33:01 INFO  [91/278] rocketchip.macros.compile [0m
+2023.08.24 16:33:03 INFO  [92/278] hardfloat.upstreamCompileOutput [0m
+2023.08.24 16:33:03 INFO  [93/278] hardfloat.allSourceFiles [0m
+2023.08.24 16:33:03 INFO  [94/278] hardfloat.transitiveLocalClasspath [0m
+2023.08.24 16:33:03 INFO  [95/278] hardfloat.resources [0m
+2023.08.24 16:33:03 INFO  [96/278] hardfloat.scalaVersion [0m
+2023.08.24 16:33:03 INFO  [97/278] hardfloat.platformSuffix [0m
+2023.08.24 16:33:03 INFO  [98/278] hardfloat.compileIvyDeps [0m
+2023.08.24 16:33:03 INFO  [99/278] hardfloat.transitiveCompileIvyDeps [0m
+2023.08.24 16:33:03 INFO  [100/278] hardfloat.scalaOrganization [0m
+2023.08.24 16:33:03 INFO  [101/278] hardfloat.scalaLibraryIvyDeps [0m
+2023.08.24 16:33:03 INFO  [102/278] hardfloat.resolvedIvyDeps [0m
+2023.08.24 16:33:03 INFO  [103/278] hardfloat.compileClasspath [0m
+2023.08.24 16:33:03 INFO  [104/278] hardfloat.javacOptions [0m
+2023.08.24 16:33:03 INFO  [105/278] hardfloat.scalacOptions [0m
+2023.08.24 16:33:03 INFO  [106/278] hardfloat.scalaCompilerClasspath [0m
+2023.08.24 16:33:03 INFO  [107/278] hardfloat.scalacPluginIvyDeps [0m
+2023.08.24 16:33:03 INFO  [108/278] hardfloat.scalacPluginClasspath.overriden.mill.scalalib.ScalaModule.scalacPluginClasspath [0m
+2023.08.24 16:33:03 INFO  [109/278] hardfloat.scalacPluginClasspath [0m
+2023.08.24 16:33:03 INFO  [110/278] hardfloat.compile [0m
+2023.08.24 16:33:03 INFO  [111/278] config.upstreamCompileOutput [0m
+2023.08.24 16:33:03 INFO  [112/278] config.allSourceFiles [0m
+2023.08.24 16:33:03 INFO  [113/278] config.transitiveLocalClasspath [0m
+2023.08.24 16:33:03 INFO  [114/278] config.resources [0m
+2023.08.24 16:33:03 INFO  [115/278] config.scalaVersion [0m
+2023.08.24 16:33:03 INFO  [116/278] config.platformSuffix [0m
+2023.08.24 16:33:03 INFO  [117/278] config.compileIvyDeps [0m
+2023.08.24 16:33:03 INFO  [118/278] config.transitiveCompileIvyDeps [0m
+2023.08.24 16:33:03 INFO  [119/278] config.scalaOrganization [0m
+2023.08.24 16:33:03 INFO  [120/278] config.scalaLibraryIvyDeps [0m
+2023.08.24 16:33:03 INFO  [121/278] config.resolvedIvyDeps [0m
+2023.08.24 16:33:03 INFO  [122/278] config.compileClasspath [0m
+2023.08.24 16:33:03 INFO  [123/278] config.javacOptions [0m
+2023.08.24 16:33:03 INFO  [124/278] config.scalacOptions [0m
+2023.08.24 16:33:03 INFO  [125/278] config.scalaCompilerClasspath [0m
+2023.08.24 16:33:03 INFO  [126/278] config.scalacPluginIvyDeps [0m
+2023.08.24 16:33:03 INFO  [127/278] config.scalacPluginClasspath [0m
+2023.08.24 16:33:03 INFO  [128/278] config.compile [0m
+2023.08.24 16:33:03 INFO  [129/278] rocketchip.upstreamCompileOutput [0m
+2023.08.24 16:33:03 INFO  [130/278] rocketchip.allSourceFiles [0m
+2023.08.24 16:33:03 INFO  [131/278] rocketchip.macros.localClasspath [0m
+2023.08.24 16:33:03 INFO  [132/278] hardfloat.localClasspath [0m
+2023.08.24 16:33:03 INFO  [133/278] config.localClasspath [0m
+2023.08.24 16:33:03 INFO  [134/278] rocketchip.transitiveLocalClasspath [0m
+2023.08.24 16:33:03 INFO  [135/278] rocketchip.platformSuffix [0m
+2023.08.24 16:33:03 INFO  [136/278] rocketchip.compileIvyDeps [0m
+2023.08.24 16:33:03 INFO  [137/278] rocketchip.transitiveCompileIvyDeps [0m
+2023.08.24 16:33:03 INFO  [138/278] rocketchip.scalaLibraryIvyDeps [0m
+2023.08.24 16:33:03 INFO  [139/278] rocketchip.resolvedIvyDeps [0m
+2023.08.24 16:33:03 INFO  [140/278] rocketchip.compileClasspath [0m
+2023.08.24 16:33:03 INFO  [141/278] rocketchip.javacOptions [0m
+2023.08.24 16:33:03 INFO  [142/278] rocketchip.scalacOptions [0m
+2023.08.24 16:33:03 INFO  [143/278] rocketchip.scalaCompilerClasspath [0m
+2023.08.24 16:33:03 INFO  [144/278] rocketchip.scalacPluginIvyDeps [0m
+2023.08.24 16:33:03 INFO  [145/278] rocketchip.scalacPluginClasspath [0m
+2023.08.24 16:33:03 INFO  [146/278] rocketchip.compile [0m
+2023.08.24 16:33:06 INFO  [147/278] rocketchip.localClasspath [0m
+2023.08.24 16:33:06 INFO  [148/278] utility.resources [0m
+2023.08.24 16:33:06 INFO  [149/278] utility.upstreamCompileOutput [0m
+2023.08.24 16:33:06 INFO  [150/278] utility.allSourceFiles [0m
+2023.08.24 16:33:06 INFO  [151/278] utility.transitiveLocalClasspath [0m
+2023.08.24 16:33:06 INFO  [152/278] utility.scalaVersion [0m
+2023.08.24 16:33:06 INFO  [153/278] utility.platformSuffix [0m
+2023.08.24 16:33:06 INFO  [154/278] utility.compileIvyDeps [0m
+2023.08.24 16:33:06 INFO  [155/278] utility.transitiveCompileIvyDeps [0m
+2023.08.24 16:33:06 INFO  [156/278] utility.scalaOrganization [0m
+2023.08.24 16:33:06 INFO  [157/278] utility.scalaLibraryIvyDeps [0m
+2023.08.24 16:33:06 INFO  [158/278] utility.resolvedIvyDeps [0m
+2023.08.24 16:33:06 INFO  [159/278] utility.compileClasspath [0m
+2023.08.24 16:33:06 INFO  [160/278] utility.javacOptions [0m
+2023.08.24 16:33:06 INFO  [161/278] utility.scalacOptions [0m
+2023.08.24 16:33:06 INFO  [162/278] utility.scalaCompilerClasspath [0m
+2023.08.24 16:33:06 INFO  [163/278] utility.scalacPluginIvyDeps [0m
+2023.08.24 16:33:06 INFO  [164/278] utility.scalacPluginClasspath [0m
+2023.08.24 16:33:06 INFO  [165/278] utility.compile [0m
+2023.08.24 16:33:06 INFO  [166/278] utility.localClasspath [0m
+2023.08.24 16:33:06 INFO  [167/278] huancun.resources [0m
+2023.08.24 16:33:06 INFO  [168/278] huancun.upstreamCompileOutput [0m
+2023.08.24 16:33:06 INFO  [169/278] huancun.allSourceFiles [0m
+2023.08.24 16:33:06 INFO  [170/278] huancun.transitiveLocalClasspath [0m
+2023.08.24 16:33:06 INFO  [171/278] huancun.scalaVersion [0m
+2023.08.24 16:33:06 INFO  [172/278] huancun.platformSuffix [0m
+2023.08.24 16:33:06 INFO  [173/278] huancun.compileIvyDeps [0m
+2023.08.24 16:33:06 INFO  [174/278] huancun.transitiveCompileIvyDeps [0m
+2023.08.24 16:33:06 INFO  [175/278] huancun.scalaOrganization [0m
+2023.08.24 16:33:06 INFO  [176/278] huancun.scalaLibraryIvyDeps [0m
+2023.08.24 16:33:06 INFO  [177/278] huancun.resolvedIvyDeps [0m
+2023.08.24 16:33:07 INFO  [178/278] huancun.compileClasspath [0m
+2023.08.24 16:33:07 INFO  [179/278] huancun.javacOptions [0m
+2023.08.24 16:33:07 INFO  [180/278] huancun.scalacOptions [0m
+2023.08.24 16:33:07 INFO  [181/278] huancun.scalaCompilerClasspath [0m
+2023.08.24 16:33:07 INFO  [182/278] huancun.scalacPluginIvyDeps [0m
+2023.08.24 16:33:07 INFO  [183/278] huancun.scalacPluginClasspath [0m
+2023.08.24 16:33:07 INFO  [184/278] huancun.compile [0m
+2023.08.24 16:33:07 INFO  [185/278] huancun.localClasspath [0m
+2023.08.24 16:33:07 INFO  [186/278] CoupledL2.transitiveLocalClasspath [0m
+2023.08.24 16:33:07 INFO  [187/278] CoupledL2.resolvedIvyDeps [0m
+2023.08.24 16:33:08 INFO  [188/278] CoupledL2.compileClasspath [0m
+2023.08.24 16:33:08 INFO  [189/278] CoupledL2.bloop.config [0m
+2023.08.24 16:33:31 INFO  [190/278] CoupledL2.bloop.writeConfig [0m
+2023.08.24 16:33:31 INFO  Wrote /home/yikun/workspace/CoupledL2/.bloop/CoupledL2.json[0m
+2023.08.24 16:33:31 INFO  [191/278] CoupledL2.test.unmanagedClasspath [0m
+2023.08.24 16:33:31 INFO  [192/278] CoupledL2.test.scalaVersion [0m
+2023.08.24 16:33:31 INFO  [193/278] CoupledL2.test.platformSuffix [0m
+2023.08.24 16:33:31 INFO  [194/278] CoupledL2.test.compileIvyDeps [0m
+2023.08.24 16:33:31 INFO  [195/278] CoupledL2.test.transitiveCompileIvyDeps [0m
+2023.08.24 16:33:31 INFO  [196/278] CoupledL2.test.ivyDeps.overriden.mill.scalalib.JavaModule.ivyDeps [0m
+2023.08.24 16:33:31 INFO  [197/278] CoupledL2.test.ivyDeps [0m
+2023.08.24 16:33:31 INFO  [198/278] CoupledL2.test.transitiveIvyDeps [0m
+2023.08.24 16:33:31 INFO  [199/278] CoupledL2.test.scalaOrganization [0m
+2023.08.24 16:33:31 INFO  [200/278] CoupledL2.test.scalaLibraryIvyDeps [0m
+2023.08.24 16:33:31 INFO  [201/278] CoupledL2.test.resources [0m
+2023.08.24 16:33:31 INFO  [202/278] CoupledL2.test.scalaCompilerClasspath [0m
+2023.08.24 16:33:31 INFO  [203/278] CoupledL2.test.testFramework [0m
+2023.08.24 16:33:31 INFO  [204/278] CoupledL2.test.forkArgs [0m
+2023.08.24 16:33:31 INFO  [205/278] CoupledL2.test.mainClass [0m
+2023.08.24 16:33:31 INFO  [206/278] CoupledL2.upstreamCompileOutput [0m
+2023.08.24 16:33:31 INFO  [207/278] CoupledL2.allSourceFiles [0m
+2023.08.24 16:33:31 INFO  [208/278] CoupledL2.compile [0m
+2023.08.24 16:33:31 INFO  [209/278] CoupledL2.localClasspath [0m
+2023.08.24 16:33:31 INFO  [210/278] CoupledL2.test.transitiveLocalClasspath [0m
+2023.08.24 16:33:31 INFO  [211/278] CoupledL2.test.resolvedIvyDeps [0m
+2023.08.24 16:33:31 INFO  [212/278] CoupledL2.test.compileClasspath [0m
+2023.08.24 16:33:31 INFO  [213/278] CoupledL2.test.bloop.config [0m
+2023.08.24 16:33:35 INFO  [214/278] CoupledL2.test.bloop.writeConfig [0m
+2023.08.24 16:33:35 INFO  Wrote /home/yikun/workspace/CoupledL2/.bloop/CoupledL2.test.json[0m
+2023.08.24 16:33:35 INFO  [215/278] rocketchip.forkArgs [0m
+2023.08.24 16:33:35 INFO  [216/278] rocketchip.mainClass [0m
+2023.08.24 16:33:35 INFO  [217/278] rocketchip.bloop.config [0m
+2023.08.24 16:33:35 INFO  [218/278] rocketchip.bloop.writeConfig [0m
+2023.08.24 16:33:35 INFO  Wrote /home/yikun/workspace/CoupledL2/.bloop/rocketchip.json[0m
+2023.08.24 16:33:35 INFO  [219/278] config.forkArgs [0m
+2023.08.24 16:33:35 INFO  [220/278] config.mainClass [0m
+2023.08.24 16:33:35 INFO  [221/278] config.bloop.config [0m
+2023.08.24 16:33:36 INFO  [222/278] config.bloop.writeConfig [0m
+2023.08.24 16:33:36 INFO  Wrote /home/yikun/workspace/CoupledL2/.bloop/config.json[0m
+2023.08.24 16:33:36 INFO  [223/278] hardfloat.forkArgs [0m
+2023.08.24 16:33:36 INFO  [224/278] hardfloat.mainClass [0m
+2023.08.24 16:33:36 INFO  [225/278] hardfloat.bloop.config [0m
+2023.08.24 16:33:36 INFO  [226/278] hardfloat.bloop.writeConfig [0m
+2023.08.24 16:33:36 INFO  Wrote /home/yikun/workspace/CoupledL2/.bloop/hardfloat.json[0m
+2023.08.24 16:33:36 INFO  [227/278] hardfloat.test.unmanagedClasspath [0m
+2023.08.24 16:33:36 INFO  [228/278] hardfloat.test.scalaVersion [0m
+2023.08.24 16:33:36 INFO  [229/278] hardfloat.test.platformSuffix [0m
+2023.08.24 16:33:36 INFO  [230/278] hardfloat.test.compileIvyDeps [0m
+2023.08.24 16:33:36 INFO  [231/278] hardfloat.test.transitiveCompileIvyDeps [0m
+2023.08.24 16:33:36 INFO  [232/278] hardfloat.test.ivyDeps [0m
+2023.08.24 16:33:36 INFO  [233/278] hardfloat.test.transitiveIvyDeps [0m
+2023.08.24 16:33:36 INFO  [234/278] hardfloat.test.scalaOrganization [0m
+2023.08.24 16:33:36 INFO  [235/278] hardfloat.test.scalaLibraryIvyDeps [0m
+2023.08.24 16:33:36 INFO  [236/278] hardfloat.test.resources [0m
+2023.08.24 16:33:36 INFO  [237/278] hardfloat.test.scalaCompilerClasspath [0m
+2023.08.24 16:33:36 INFO  [238/278] hardfloat.test.testFramework [0m
+2023.08.24 16:33:36 INFO  [239/278] hardfloat.test.forkArgs [0m
+2023.08.24 16:33:36 INFO  [240/278] hardfloat.test.mainClass [0m
+2023.08.24 16:33:36 INFO  [241/278] hardfloat.test.transitiveLocalClasspath [0m
+2023.08.24 16:33:36 INFO  [242/278] hardfloat.test.resolvedIvyDeps [0m
+2023.08.24 16:33:36 INFO  [243/278] hardfloat.test.compileClasspath [0m
+2023.08.24 16:33:36 INFO  [244/278] hardfloat.test.bloop.config [0m
+2023.08.24 16:33:36 INFO  [245/278] hardfloat.test.bloop.writeConfig [0m
+2023.08.24 16:33:36 INFO  Wrote /home/yikun/workspace/CoupledL2/.bloop/hardfloat.test.json[0m
+2023.08.24 16:33:36 INFO  [246/278] rocketchip.macros.forkArgs [0m
+2023.08.24 16:33:36 INFO  [247/278] rocketchip.macros.mainClass [0m
+2023.08.24 16:33:36 INFO  [248/278] rocketchip.macros.bloop.config [0m
+2023.08.24 16:33:36 INFO  [249/278] rocketchip.macros.bloop.writeConfig [0m
+2023.08.24 16:33:36 INFO  Wrote /home/yikun/workspace/CoupledL2/.bloop/rocketchip.macros.json[0m
+2023.08.24 16:33:36 INFO  [250/278] rocketchip.test.unmanagedClasspath [0m
+2023.08.24 16:33:36 INFO  [251/278] rocketchip.test.scalaVersion [0m
+2023.08.24 16:33:36 INFO  [252/278] rocketchip.test.platformSuffix [0m
+2023.08.24 16:33:36 INFO  [253/278] rocketchip.test.compileIvyDeps [0m
+2023.08.24 16:33:36 INFO  [254/278] rocketchip.test.transitiveCompileIvyDeps [0m
+2023.08.24 16:33:36 INFO  [255/278] rocketchip.test.ivyDeps [0m
+2023.08.24 16:33:36 INFO  [256/278] rocketchip.test.transitiveIvyDeps [0m
+2023.08.24 16:33:36 INFO  [257/278] rocketchip.test.scalaOrganization [0m
+2023.08.24 16:33:36 INFO  [258/278] rocketchip.test.scalaLibraryIvyDeps [0m
+2023.08.24 16:33:36 INFO  [259/278] rocketchip.test.resources [0m
+2023.08.24 16:33:36 INFO  [260/278] rocketchip.test.scalaCompilerClasspath [0m
+2023.08.24 16:33:36 INFO  [261/278] rocketchip.test.testFrameworks [0m
+2023.08.24 16:33:36 INFO  [262/278] rocketchip.test.testFramework [0m
+2023.08.24 16:33:36 INFO  Target testFrameworks is deprecated. Please use target testFramework or use on of the predefined TestModules: TestNg, Junit, Scalatest, ...[0m
+2023.08.24 16:33:36 INFO  [263/278] rocketchip.test.forkArgs [0m
+2023.08.24 16:33:36 INFO  [264/278] rocketchip.test.mainClass [0m
+2023.08.24 16:33:36 INFO  [265/278] rocketchip.test.transitiveLocalClasspath [0m
+2023.08.24 16:33:36 INFO  [266/278] rocketchip.test.resolvedIvyDeps [0m
+2023.08.24 16:33:36 INFO  [267/278] rocketchip.test.compileClasspath [0m
+2023.08.24 16:33:36 INFO  [268/278] rocketchip.test.bloop.config [0m
+2023.08.24 16:33:37 INFO  [269/278] rocketchip.test.bloop.writeConfig [0m
+2023.08.24 16:33:37 INFO  Wrote /home/yikun/workspace/CoupledL2/.bloop/rocketchip.test.json[0m
+2023.08.24 16:33:37 INFO  [270/278] utility.forkArgs [0m
+2023.08.24 16:33:37 INFO  [271/278] utility.mainClass [0m
+2023.08.24 16:33:37 INFO  [272/278] utility.bloop.config [0m
+2023.08.24 16:33:37 INFO  [273/278] utility.bloop.writeConfig [0m
+2023.08.24 16:33:37 INFO  Wrote /home/yikun/workspace/CoupledL2/.bloop/utility.json[0m
+2023.08.24 16:33:37 INFO  [274/278] huancun.forkArgs [0m
+2023.08.24 16:33:37 INFO  [275/278] huancun.mainClass [0m
+2023.08.24 16:33:37 INFO  [276/278] huancun.bloop.config [0m
+2023.08.24 16:33:37 INFO  [277/278] huancun.bloop.writeConfig [0m
+2023.08.24 16:33:37 INFO  Wrote /home/yikun/workspace/CoupledL2/.bloop/huancun.json[0m
+2023.08.24 16:33:37 INFO  [278/278] mill.contrib.bloop.BloopImpl.install [0m
+2023.08.24 16:33:38 INFO  time: ran 'mill bloopInstall' in 1m[0m
+2023.08.24 16:33:38 INFO  Attempting to connect to the build server...[0m
+2023.08.24 16:33:38 INFO  Setting up current java home /usr/lib/jvm/java-8-openjdk-amd64/jre in /home/yikun/.bloop/bloop.json[0m
+2023.08.24 16:34:43 ERROR Starting the bsp launcher for bloop...[0m
+2023.08.24 16:34:43 ERROR Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher45210234270995385/bsp.socket'...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR error: Giving up on waiting for a connection, printing embedded bloop logs:[0m
+2023.08.24 16:34:43 ERROR > No server running at 127.0.0.1:8212, let's fire one...[0m
+2023.08.24 16:34:43 ERROR > Resolving ch.epfl.scala:bloop-frontend_2.12:1.5.8...[0m
+2023.08.24 16:34:43 ERROR error: Trying a tcp-based connection to the server instead...[0m
+2023.08.24 16:34:43 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 30836'...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR Waiting for the bsp connection to come up...[0m
+2023.08.24 16:34:43 ERROR error: Giving up on waiting for a connection, printing embedded bloop logs:[0m
+2023.08.24 16:34:43 ERROR > No server running at 127.0.0.1:8212, let's fire one...[0m
+2023.08.24 16:34:43 ERROR > Resolving ch.epfl.scala:bloop-frontend_2.12:1.5.8...[0m
+2023.08.24 16:34:43 ERROR error: The launcher failed to establish a bsp connection, aborting...[0m
+2023.08.24 16:34:43 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:496)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.08.24 20:03:19 WARN  no build target for: /home/yikun/workspace/CoupledL2/src/test/scala/TestTop.scala[0m
+Exception in thread "pool-5-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.08.24 20:03:20 WARN  no build target for: /home/yikun/workspace/CoupledL2/src/test/scala/TestTop.scala[0m
+2023.08.24 23:17:29 INFO  Shutting down server[0m
+2023.08.24 23:17:29 INFO  shutting down Metals[0m
+2023.08.24 23:17:29 INFO  Exiting server[0m
+2023.08.25 10:51:19 INFO  Started: Metals version 1.0.0 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Aug 25, 2023 10:51:19 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 25, 2023 10:51:19 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 25, 2023 10:51:19 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 25, 2023 10:51:20 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Aug 25, 2023 10:51:20 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.049s)
+Aug 25, 2023 10:51:20 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 25, 2023 10:51:20 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.25 10:51:20 INFO  time: initialize in 0.97s[0m
+2023.08.25 10:51:21 INFO  Attempting to connect to the build server...[0m
+2023.08.25 10:51:21 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64/jre defined at /home/yikun/.bloop/bloop.json[0m
+2023.08.25 10:51:21 INFO  skipping build import with status 'Installed'[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.08.25 10:51:27 INFO  no build target found for /home/yikun/workspace/CoupledL2/src/test/scala/TestTop.scala. Using presentation compiler with project's scala-library version: 3.3.0[0m
+2023.08.25 10:51:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yikun/workspace/CoupledL2/.metals/bsp.trace.json or /home/yikun/.cache/metals/bsp.trace.json[0m
+2023.08.25 10:51:31 INFO  time: code lens generation in 7.36s[0m
+2023.08.25 10:51:31 INFO  time: code lens generation in 8.33s[0m
+2023.08.25 10:51:31 INFO  time: code lens generation in 4.34s[0m
+2023.08.25 10:51:40 INFO  Shutting down server[0m
+2023.08.25 10:51:40 INFO  shutting down Metals[0m
+2023.08.25 10:51:40 INFO  Exiting server[0m
+2023.08.25 11:55:07 INFO  Started: Metals version 1.0.0 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Aug 25, 2023 11:55:07 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 25, 2023 11:55:07 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 25, 2023 11:55:07 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 25, 2023 11:55:08 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Aug 25, 2023 11:55:08 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.039s)
+Aug 25, 2023 11:55:08 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 25, 2023 11:55:08 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.25 11:55:08 INFO  time: initialize in 1.09s[0m
+2023.08.25 11:55:09 INFO  Attempting to connect to the build server...[0m
+2023.08.25 11:55:09 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64/jre defined at /home/yikun/.bloop/bloop.json[0m
+2023.08.25 11:55:09 INFO  skipping build import with status 'Installed'[0m
+Aug 25, 2023 11:55:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.08.25 11:55:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yikun/workspace/CoupledL2/.metals/bsp.trace.json or /home/yikun/.cache/metals/bsp.trace.json[0m
+2023.08.25 11:55:26 INFO  time: Connected to build server in 17s[0m
+2023.08.25 11:55:26 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.08.25 11:55:26 INFO  time: Imported build in 0.27s[0m
+2023.08.25 11:56:03 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.25 11:56:06 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.25 11:56:06 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.25 11:56:06 INFO  time: indexed workspace in 39s[0m
+2023.08.25 11:56:09 INFO  compiling config (1 scala source)[0m
+2023.08.25 11:56:09 INFO  compiling rocketchip.macros (1 scala source)[0m
+2023.08.25 11:56:09 INFO  compiling hardfloat (20 scala sources)[0m
+2023.08.25 11:56:35 INFO  time: compiled rocketchip.macros in 26s[0m
+2023.08.25 11:56:35 INFO  time: compiled config in 26s[0m
+2023.08.25 11:56:50 WARN  535 feature warnings; re-run with -feature for details[0m
+2023.08.25 11:56:50 INFO  time: compiled hardfloat in 42s[0m
+2023.08.25 11:56:50 INFO  compiling rocketchip (339 scala sources)[0m
+2023.08.25 11:58:24 WARN  one deprecation[0m
+2023.08.25 11:58:24 WARN  314 deprecations (since Chisel 3.5)[0m
+2023.08.25 11:58:24 WARN  16 deprecations (since FIRRTL 1.4)[0m
+2023.08.25 11:58:24 WARN  one deprecation (since FIRRTL 1.5)[0m
+2023.08.25 11:58:24 WARN  332 deprecations in total; re-run with -deprecation for details[0m
+2023.08.25 11:58:24 WARN  2653 feature warnings; re-run with -feature for details[0m
+2023.08.25 11:58:27 INFO  compiling utility (34 scala sources)[0m
+2023.08.25 11:58:27 INFO  compiling rocketchip.test (3 scala sources)[0m
+2023.08.25 11:58:32 INFO  time: compiled rocketchip in 1m40s[0m
+2023.08.25 11:58:45 WARN  three deprecations (since FIRRTL 1.3); re-run with -deprecation for details[0m
+2023.08.25 11:58:45 INFO  Shutting down server[0m
+2023.08.25 11:58:45 INFO  shutting down Metals[0m
+Aug 25, 2023 11:58:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:348)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:348)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:285)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:34)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:34)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:34)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.cancel(MetalsLspService.scala:151)
+	at scala.meta.internal.metals.MetalsLspService.onShutdown(MetalsLspService.scala:904)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2(WorkspaceLspService.scala:1164)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2$adapted(WorkspaceLspService.scala:1164)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.WorkspaceLspService.shutdown(WorkspaceLspService.scala:1164)
+	at scala.meta.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:239)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SinkChannelImpl.ensureOpen(SinkChannelImpl.java:154)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:158)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 44 more
+
+2023.08.25 11:58:46 INFO  Cancelling compilation on Bloop server[0m
+2023.08.28 09:45:25 INFO  Started: Metals version 1.0.0 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Aug 28, 2023 9:45:26 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 28, 2023 9:45:26 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 28, 2023 9:45:26 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 28, 2023 9:45:26 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Aug 28, 2023 9:45:26 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.036s)
+Aug 28, 2023 9:45:26 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 28, 2023 9:45:26 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.28 09:45:26 INFO  time: initialize in 0.97s[0m
+2023.08.28 09:45:27 INFO  Attempting to connect to the build server...[0m
+2023.08.28 09:45:27 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64/jre defined at /home/yikun/.bloop/bloop.json[0m
+2023.08.28 09:45:27 INFO  skipping build import with status 'Installed'[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.08.28 09:45:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yikun/workspace/CoupledL2/.metals/bsp.trace.json or /home/yikun/.cache/metals/bsp.trace.json[0m
+2023.08.28 09:45:31 INFO  time: Connected to build server in 4.48s[0m
+2023.08.28 09:45:31 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.08.28 09:45:31 INFO  time: Imported build in 0.23s[0m
+2023.08.28 09:45:38 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.28 09:45:38 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.28 09:45:38 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.28 09:45:38 INFO  time: indexed workspace in 6.67s[0m
+2023.08.28 10:20:03 INFO  compiling config (1 scala source)[0m
+2023.08.28 10:20:03 INFO  compiling rocketchip.macros (1 scala source)[0m
+2023.08.28 10:20:03 INFO  compiling hardfloat (20 scala sources)[0m
+2023.08.28 10:20:11 INFO  time: compiled config in 8.39s[0m
+2023.08.28 10:20:11 INFO  time: compiled rocketchip.macros in 8.4s[0m
+2023.08.28 10:20:24 WARN  535 feature warnings; re-run with -feature for details[0m
+2023.08.28 10:20:24 INFO  time: compiled hardfloat in 21s[0m
+2023.08.28 10:20:24 INFO  compiling rocketchip (339 scala sources)[0m
+2023.08.28 10:21:48 WARN  one deprecation[0m
+2023.08.28 10:21:48 WARN  314 deprecations (since Chisel 3.5)[0m
+2023.08.28 10:21:48 WARN  16 deprecations (since FIRRTL 1.4)[0m
+2023.08.28 10:21:48 WARN  one deprecation (since FIRRTL 1.5)[0m
+2023.08.28 10:21:48 WARN  332 deprecations in total; re-run with -deprecation for details[0m
+2023.08.28 10:21:48 WARN  2653 feature warnings; re-run with -feature for details[0m
+2023.08.28 10:21:48 INFO  compiling utility (34 scala sources)[0m
+2023.08.28 10:21:51 INFO  time: compiled rocketchip in 1m26s[0m
+2023.08.28 10:22:01 WARN  26 deprecations (since Chisel 3.5); re-run with -deprecation for details[0m
+2023.08.28 10:22:01 WARN  199 feature warnings; re-run with -feature for details[0m
+2023.08.28 10:22:01 INFO  compiling huancun (43 scala sources)[0m
+2023.08.28 10:22:01 INFO  time: compiled utility in 12s[0m
+2023.08.28 10:22:12 WARN  150 deprecations (since Chisel 3.5); re-run with -deprecation for details[0m
+2023.08.28 10:22:12 WARN  1167 feature warnings; re-run with -feature for details[0m
+2023.08.28 10:22:12 INFO  compiling coupledl2 (37 scala sources)[0m
+2023.08.28 10:22:12 INFO  time: compiled huancun in 11s[0m
+2023.08.28 10:22:22 WARN  68 deprecations (since Chisel 3.5); re-run with -deprecation for details[0m
+2023.08.28 10:22:22 WARN  1226 feature warnings; re-run with -feature for details[0m
+2023.08.28 10:22:22 INFO  time: compiled CoupledL2 in 9.79s[0m
+2023.08.28 10:45:07 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/rocket-chip/src/main/scala/amba/ahb/ToTL.scala[0m
+2023.08.28 10:45:08 INFO  time: code lens generation in 1.81s[0m
+2023.08.28 10:47:08 WARN  no build target for: /home/yikun/workspace/CoupledL2/utility/rocket-chip/src/main/scala/tilelink/ToAHB.scala[0m
+2023.08.28 10:48:59 INFO  compiling rocketchip.test (3 scala sources)[0m
+2023.08.28 10:48:59 INFO  compiling coupledl2.test (6 scala sources)[0m
+2023.08.28 10:49:00 INFO  time: compiled CoupledL2.test in 1.13s[0m
+2023.08.28 10:49:03 WARN  three deprecations (since FIRRTL 1.3); re-run with -deprecation for details[0m
+2023.08.28 10:49:03 INFO  time: compiled rocketchip.test in 4.33s[0m
+2023.08.28 10:49:03 INFO  compiling coupledl2.test (6 scala sources)[0m
+2023.08.28 10:49:03 INFO  time: compiled CoupledL2.test in 0.27s[0m
+2023.08.28 10:49:12 INFO  compiling coupledl2.test (6 scala sources)[0m
+2023.08.28 10:49:12 INFO  time: compiled CoupledL2.test in 0.22s[0m
+2023.08.28 10:49:15 INFO  compiling coupledl2.test (6 scala sources)[0m
+2023.08.28 10:49:15 INFO  time: compiled CoupledL2.test in 0.11s[0m
+2023.08.28 10:49:24 INFO  compiling coupledl2.test (6 scala sources)[0m
+2023.08.28 10:49:24 INFO  time: compiled CoupledL2.test in 0.12s[0m
+2023.08.28 10:49:24 INFO  compiling coupledl2.test (6 scala sources)[0m
+2023.08.28 10:49:24 INFO  time: compiled CoupledL2.test in 98ms[0m
+2023.08.28 10:51:42 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/rocket-chip/src/main/scala/tilelink/Bundles.scala[0m
+2023.08.28 10:51:51 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/Utility/rocket-chip/src/main/scala/tilelink/Bundles.scala[0m
+2023.08.28 10:52:44 WARN  no build target for: /home/yikun/workspace/CoupledL2/utility/rocket-chip/src/main/scala/tilelink/Bundle_ACancel.scala[0m
+2023.08.28 11:21:03 INFO  compiling coupledl2.test (6 scala sources)[0m
+2023.08.28 11:21:04 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/rocket-chip/src/main/scala/tilelink/Bundle_ACancel.scala[0m
+2023.08.28 11:21:06 INFO  time: compiled CoupledL2.test in 2.89s[0m
+2023.08.28 11:21:07 INFO  compiling coupledl2.test (6 scala sources)[0m
+2023.08.28 11:21:07 INFO  time: compiled CoupledL2.test in 0.47s[0m
+2023.08.28 11:21:12 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/rocket-chip/src/main/scala/tilelink/Bundles.scala[0m
+2023.08.28 11:21:15 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/rocket-chip/src/main/scala/tilelink/Monitor.scala[0m
+2023.08.28 11:21:21 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/rocket-chip/src/main/scala/tilelink/Nodes.scala[0m
+2023.08.28 11:21:45 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/src/test/scala/huancun/FakeClient.scala[0m
+2023.08.28 11:21:48 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/Utility/rocket-chip/src/main/scala/tilelink/Bundle_ACancel.scala[0m
+2023.08.28 11:21:56 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/Utility/rocket-chip/src/main/scala/tilelink/Monitor.scala[0m
+2023.08.28 11:22:00 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/Utility/src/main/scala/utils/TLEdgeBuffer.scala[0m
+2023.08.28 11:22:13 WARN  no build target for: /home/yikun/workspace/CoupledL2/utility/rocket-chip/src/main/scala/tilelink/Nodes.scala[0m
+2023.08.28 11:47:29 INFO  compiling coupledl2.test (6 scala sources)[0m
+2023.08.28 11:47:30 INFO  time: compiled CoupledL2.test in 1.02s[0m
+2023.08.28 11:52:30 INFO  compiling coupledl2.test (6 scala sources)[0m
+2023.08.28 11:52:30 INFO  time: compiled CoupledL2.test in 0.59s[0m
+2023.08.28 11:52:30 INFO  compiling coupledl2.test (6 scala sources)[0m
+2023.08.28 11:52:31 INFO  time: compiled CoupledL2.test in 0.1s[0m
+2023.08.28 15:07:09 INFO  compiling coupledl2.test (6 scala sources)[0m
+2023.08.28 15:07:11 INFO  time: compiled CoupledL2.test in 2.28s[0m
+2023.08.28 15:07:12 INFO  compiling coupledl2.test (6 scala sources)[0m
+2023.08.28 15:07:12 INFO  time: compiled CoupledL2.test in 0.43s[0m
+2023.08.28 15:07:15 INFO  compiling coupledl2.test (6 scala sources)[0m
+2023.08.28 15:07:22 WARN  20 deprecations (since Chisel 3.5); re-run with -deprecation for details[0m
+2023.08.28 15:07:22 INFO  time: compiled CoupledL2.test in 7.53s[0m
+2023.08.28 15:07:23 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/rocket-chip/src/main/scala/amba/ahb/RegisterRouter.scala[0m
+2023.08.28 15:31:40 WARN  no build target for: /home/yikun/workspace/CoupledL2/build.sc[0m
+2023.08.28 16:14:12 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/src/test/scala/huancun/TestTop.scala[0m
+2023.08.28 16:14:13 INFO  time: code lens generation in 1.07s[0m
+2023.08.28 16:14:26 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/Utility/src/main/scala/utils/ChiselDB.scala[0m
+2023.08.28 16:14:38 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/src/test/scala/huancun/TestTop.scala[0m
+2023.08.28 18:58:51 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/src/test/scala/huancun/TestTop.scala[0m
+2023.08.28 18:59:29 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/Utility/src/main/scala/utils/ChiselDB.scala[0m
+2023.08.28 18:59:38 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/src/test/scala/huancun/TestTop.scala[0m
+2023.08.28 19:00:37 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/Utility/src/main/scala/utils/ChiselDB.scala[0m
+2023.08.28 19:02:22 INFO  compiling coupledl2.test (1 scala source)[0m
+2023.08.28 19:02:27 INFO  time: compiled CoupledL2.test in 5.55s[0m
+2023.08.28 19:16:29 INFO  compiling utility (1 scala source)[0m
+2023.08.28 19:16:31 INFO  time: compiled utility in 1.59s[0m
+2023.08.28 19:31:20 INFO  compiling coupledl2.test (1 scala source)[0m
+2023.08.28 19:31:25 INFO  time: compiled CoupledL2.test in 4.74s[0m
+2023.08.28 19:34:39 INFO  compiling coupledl2.test (1 scala source)[0m
+2023.08.28 19:34:42 INFO  time: compiled CoupledL2.test in 3.72s[0m
+2023.08.28 19:35:31 INFO  compiling coupledl2.test (1 scala source)[0m
+2023.08.28 19:35:34 INFO  time: compiled CoupledL2.test in 2.8s[0m
+2023.08.28 19:37:07 INFO  compiling coupledl2.test (1 scala source)[0m
+2023.08.28 19:37:11 INFO  time: compiled CoupledL2.test in 3.9s[0m
+2023.08.28 19:37:21 INFO  compiling coupledl2.test (1 scala source)[0m
+2023.08.28 19:37:24 WARN  Could not load snapshot text for /home/yikun/workspace/CoupledL2/src/test/scala/TestTop.scala[0m
+2023.08.28 19:37:24 INFO  time: compiled CoupledL2.test in 2.67s[0m
+2023.08.28 19:37:34 INFO  compiling coupledl2.test (1 scala source)[0m
+2023.08.28 19:37:37 INFO  time: compiled CoupledL2.test in 2.81s[0m
+2023.08.28 19:40:55 INFO  compiling coupledl2.test (1 scala source)[0m
+2023.08.28 19:41:01 INFO  time: compiled CoupledL2.test in 5.7s[0m
+2023.08.28 19:42:22 INFO  compiling coupledl2.test (1 scala source)[0m
+2023.08.28 19:42:26 INFO  time: compiled CoupledL2.test in 4.15s[0m
+2023.08.28 19:43:53 INFO  Shutting down server[0m
+2023.08.28 19:43:53 INFO  shutting down Metals[0m
+2023.08.28 19:43:54 INFO  Shut down connection with build server.[0m
+2023.08.28 19:43:54 INFO  Exiting server[0m
+2023.08.28 19:45:40 INFO  Started: Metals version 1.0.0 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Aug 28, 2023 7:45:40 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 28, 2023 7:45:40 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 28, 2023 7:45:40 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 28, 2023 7:45:41 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Aug 28, 2023 7:45:41 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.037s)
+Aug 28, 2023 7:45:41 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 28, 2023 7:45:41 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.28 19:45:41 INFO  time: initialize in 1s[0m
+2023.08.28 19:45:42 INFO  Attempting to connect to the build server...[0m
+2023.08.28 19:45:42 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64/jre defined at /home/yikun/.bloop/bloop.json[0m
+2023.08.28 19:45:42 INFO  skipping build import with status 'Installed'[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.08.28 19:45:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yikun/workspace/CoupledL2/.metals/bsp.trace.json or /home/yikun/.cache/metals/bsp.trace.json[0m
+2023.08.28 19:45:47 INFO  time: Connected to build server in 5.91s[0m
+2023.08.28 19:45:47 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.08.28 19:45:47 INFO  time: Imported build in 0.19s[0m
+2023.08.28 19:45:53 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.28 19:45:53 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.28 19:45:53 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.28 19:45:53 INFO  time: indexed workspace in 5.45s[0m
+Aug 28, 2023 7:48:41 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.08.28 19:48:59 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/Utility/src/main/scala/utils/ChiselDB.scala[0m
+2023.08.28 19:49:01 INFO  time: code lens generation in 1.48s[0m
+2023.08.28 19:49:02 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/src/test/scala/huancun/TestTop.scala[0m
+2023.08.28 20:38:08 INFO  compiling coupledl2.test (1 scala source)[0m
+2023.08.28 20:38:22 INFO  time: compiled CoupledL2.test in 14s[0m
+Aug 28, 2023 9:14:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 120
+Aug 28, 2023 9:14:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 123
+Aug 28, 2023 9:14:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 124
+2023.08.29 10:03:12 INFO  time: code lens generation in 1.74s[0m
+2023.08.29 10:09:37 WARN  no build target for: /home/yikun/workspace/CoupledL2/utility/rocket-chip/src/main/scala/util/Replacement.scala[0m
+2023.08.29 10:09:39 INFO  time: code lens generation in 2.17s[0m
+2023.08.29 10:10:06 WARN  no build target for: /home/yikun/workspace/CoupledL2/utility/rocket-chip/src/main/scala/util/ScatterGather.scala[0m
+2023.08.29 10:43:05 WARN  no build target for: /home/yikun/workspace/CoupledL2/build.sbt[0m
+2023.08.29 10:43:06 WARN  no build target for: /home/yikun/workspace/CoupledL2/build.sbt[0m
+2023.08.29 10:43:08 WARN  no build target for: /home/yikun/workspace/CoupledL2/build.sc[0m
+2023.08.29 10:43:10 INFO  time: code lens generation in 1.05s[0m
+2023.08.29 10:55:33 WARN  no build target for: /home/yikun/workspace/CoupledL2/build.sc[0m
+2023.08.29 11:22:07 INFO  time: code lens generation in 1.16s[0m
+Aug 29, 2023 11:22:09 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+Aug 29, 2023 11:23:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 422
+2023.08.29 11:26:32 WARN  no build target for: /home/yikun/workspace/CoupledL2/HuanCun/build.sc[0m
+2023.08.29 11:28:29 INFO  Started: Metals version 1.0.0 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Aug 29, 2023 11:28:29 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 29, 2023 11:28:29 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 29, 2023 11:28:29 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 29, 2023 11:28:34 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Aug 29, 2023 11:28:34 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.037s)
+Aug 29, 2023 11:28:34 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 29, 2023 11:28:34 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.29 11:28:34 INFO  time: initialize in 5.25s[0m
+2023.08.29 11:28:35 INFO  Attempting to connect to the build server...[0m
+2023.08.29 11:28:35 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64/jre defined at /home/yikun/.bloop/bloop.json[0m
+2023.08.29 11:28:36 INFO  skipping build import with status 'Installed'[0m
+2023.08.29 11:28:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yikun/workspace/CoupledL2/.metals/bsp.trace.json or /home/yikun/.cache/metals/bsp.trace.json[0m
+2023.08.29 11:28:35 INFO  time: Connected to build server in 0.91s[0m
+2023.08.29 11:28:35 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.08.29 11:28:37 INFO  time: Imported build in 0.46s[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.08.29 11:28:45 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.29 11:28:45 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.29 11:28:45 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.29 11:28:45 INFO  time: indexed workspace in 9.3s[0m
+2023.08.29 11:28:45 WARN  no build target for: /home/yikun/workspace/CoupledL2/utility/rocket-chip/src/main/scala/util/ScatterGather.scala[0m
+2023.08.29 11:28:46 WARN  no build target for: /home/yikun/workspace/CoupledL2/build.sbt[0m
+2023.08.29 11:28:59 WARN  no build target for: /home/yikun/workspace/CoupledL2/utility/rocket-chip/src/main/scala/util/ScatterGather.scala[0m
+2023.08.29 11:28:59 WARN  no build target for: /home/yikun/workspace/CoupledL2/build.sbt[0m
+2023.08.29 11:37:44 INFO  Shutting down server[0m
+2023.08.29 11:37:44 INFO  shutting down Metals[0m
+2023.08.29 11:37:44 INFO  Shut down connection with build server.[0m
+Aug 29, 2023 11:37:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:348)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:348)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:285)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:121)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:114)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SinkChannelImpl.ensureOpen(SinkChannelImpl.java:154)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:158)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2023.08.29 11:37:45 INFO  Cancelling compilation on Bloop server[0m
+2023.08.29 11:37:44 INFO  Exiting server[0m
+2023.08.30 10:26:54 INFO  Started: Metals version 1.0.1 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Aug 30, 2023 10:26:54 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Aug 30, 2023 10:26:54 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 30, 2023 10:26:54 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 30, 2023 10:26:56 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Aug 30, 2023 10:26:56 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.170s)
+Aug 30, 2023 10:26:56 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 30, 2023 10:26:56 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.30 10:26:56 INFO  time: initialize in 2.65s[0m
+2023.08.30 10:27:04 INFO  Attempting to connect to the build server...[0m
+2023.08.30 10:27:04 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64/jre defined at /home/yikun/.bloop/bloop.json[0m
+2023.08.30 10:27:04 INFO  skipping build import with status 'Installed'[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.08.30 10:27:10 INFO  no build target found for /home/yikun/workspace/CoupledL2/build.sbt. Using presentation compiler with project's scala-library version: 3.3.0[0m
+2023.08.30 10:27:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yikun/workspace/CoupledL2/.metals/bsp.trace.json or /home/yikun/.cache/metals/bsp.trace.json[0m
+2023.08.30 10:27:14 INFO  time: Connected to build server in 10s[0m
+2023.08.30 10:27:14 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.08.30 10:27:14 INFO  time: Imported build in 0.58s[0m
+2023.08.30 10:27:24 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.30 10:27:24 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.30 10:27:24 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.30 10:27:24 INFO  time: indexed workspace in 9.85s[0m
+2023.08.30 10:27:24 WARN  no build target for: /home/yikun/workspace/CoupledL2/utility/rocket-chip/src/main/scala/util/ScatterGather.scala[0m
+2023.08.30 10:27:24 WARN  no build target for: /home/yikun/workspace/CoupledL2/build.sbt[0m
+2023.08.30 10:27:25 WARN  no build target for: /home/yikun/workspace/CoupledL2/utility/rocket-chip/src/main/scala/util/ScatterGather.scala[0m
+2023.08.30 10:27:25 WARN  no build target for: /home/yikun/workspace/CoupledL2/build.sbt[0m
+2023.08.30 10:43:01 INFO  Shutting down server[0m
+2023.08.30 10:43:01 INFO  shutting down Metals[0m
+2023.08.30 10:43:01 INFO  Exiting server[0m
+2023.08.30 14:46:48 INFO  Started: Metals version 1.0.1 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Aug 30, 2023 2:46:48 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Aug 30, 2023 2:46:48 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 30, 2023 2:46:48 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 30, 2023 2:46:49 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Aug 30, 2023 2:46:49 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.075s)
+Aug 30, 2023 2:46:49 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 30, 2023 2:46:49 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.30 14:46:50 INFO  time: initialize in 1.39s[0m
+2023.08.30 14:46:51 INFO  Attempting to connect to the build server...[0m
+2023.08.30 14:46:51 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64/jre defined at /home/yikun/.bloop/bloop.json[0m
+2023.08.30 14:46:51 INFO  skipping build import with status 'Installed'[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.08.30 14:46:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yikun/workspace/CoupledL2/.metals/bsp.trace.json or /home/yikun/.cache/metals/bsp.trace.json[0m
+2023.08.30 14:46:59 INFO  time: Connected to build server in 8.41s[0m
+2023.08.30 14:46:59 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.08.30 14:46:59 INFO  time: Imported build in 0.35s[0m
+2023.08.30 14:47:06 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.30 14:47:06 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.30 14:47:06 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.08.30 14:47:06 INFO  time: indexed workspace in 7.08s[0m
+2023.08.30 15:51:23 WARN  no build target for: /home/yikun/workspace/CoupledL2/utility/rocket-chip/src/main/scala/util/ScatterGather.scala[0m
+2023.08.30 15:51:27 INFO  time: code lens generation in 4.92s[0m
+Aug 30, 2023 3:52:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Aug 30, 2023 3:52:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Aug 30, 2023 3:52:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Aug 30, 2023 3:52:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+Aug 30, 2023 3:52:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+2023.08.30 15:56:52 WARN  no build target for: /home/yikun/workspace/CoupledL2/build.sc[0m
+Aug 30, 2023 3:56:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+2023.08.30 15:56:58 INFO  time: code lens generation in 4.97s[0m
+2023.08.30 15:56:58 INFO  time: code lens generation in 5.39s[0m
+Aug 30, 2023 3:57:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 63
+2023.08.30 15:57:11 WARN  no build target for: /home/yikun/workspace/CoupledL2/build.sbt[0m
+Aug 30, 2023 3:57:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 73
+2023.08.30 15:59:35 INFO  compiling rocketchip.macros (1 scala source)[0m
+2023.08.30 15:59:35 INFO  compiling hardfloat (20 scala sources)[0m
+2023.08.30 15:59:35 INFO  compiling config (1 scala source)[0m
+2023.08.30 15:59:46 INFO  time: compiled config in 10s[0m
+2023.08.30 15:59:46 INFO  time: compiled rocketchip.macros in 10s[0m
+Aug 30, 2023 3:59:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 104
+2023.08.30 16:00:07 WARN  535 feature warnings; re-run with -feature for details[0m
+2023.08.30 16:00:07 INFO  time: compiled hardfloat in 31s[0m
+2023.08.30 16:00:10 INFO  compiling rocketchip (339 scala sources)[0m
+Aug 30, 2023 4:00:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 140
+2023.08.30 16:00:55 INFO  compiling rocketchip (339 scala sources)[0m
+2023.08.30 16:03:04 WARN  one deprecation[0m
+2023.08.30 16:03:04 WARN  314 deprecations (since Chisel 3.5)[0m
+2023.08.30 16:03:04 WARN  16 deprecations (since FIRRTL 1.4)[0m
+2023.08.30 16:03:04 WARN  one deprecation (since FIRRTL 1.5)[0m
+2023.08.30 16:03:04 WARN  332 deprecations in total; re-run with -deprecation for details[0m
+2023.08.30 16:03:04 WARN  2653 feature warnings; re-run with -feature for details[0m
+2023.08.30 16:03:06 INFO  compiling utility (34 scala sources)[0m
+2023.08.30 16:03:09 INFO  time: compiled rocketchip in 2m14s[0m
+2023.08.30 16:03:28 WARN  26 deprecations (since Chisel 3.5); re-run with -deprecation for details[0m
+2023.08.30 16:03:28 WARN  199 feature warnings; re-run with -feature for details[0m
+2023.08.30 16:03:28 INFO  time: compiled utility in 22s[0m
+2023.08.30 16:03:28 INFO  compiling huancun (43 scala sources)[0m
+2023.08.30 16:03:33 WARN  one deprecation[0m
+2023.08.30 16:03:33 WARN  314 deprecations (since Chisel 3.5)[0m
+2023.08.30 16:03:33 WARN  16 deprecations (since FIRRTL 1.4)[0m
+2023.08.30 16:03:33 WARN  one deprecation (since FIRRTL 1.5)[0m
+2023.08.30 16:03:33 WARN  332 deprecations in total; re-run with -deprecation for details[0m
+2023.08.30 16:03:33 WARN  2653 feature warnings; re-run with -feature for details[0m
+2023.08.30 16:03:35 INFO  compiling huancun (43 scala sources)[0m
+2023.08.30 16:03:57 WARN  150 deprecations (since Chisel 3.5); re-run with -deprecation for details[0m
+2023.08.30 16:03:57 WARN  1167 feature warnings; re-run with -feature for details[0m
+2023.08.30 16:03:57 INFO  time: compiled huancun in 22s[0m
+2023.08.30 16:03:57 INFO  compiling coupledl2 (37 scala sources)[0m
+2023.08.30 16:04:06 WARN  150 deprecations (since Chisel 3.5); re-run with -deprecation for details[0m
+2023.08.30 16:04:06 WARN  1167 feature warnings; re-run with -feature for details[0m
+2023.08.30 16:04:06 INFO  compiling coupledl2 (37 scala sources)[0m
+2023.08.30 16:04:22 WARN  68 deprecations (since Chisel 3.5); re-run with -deprecation for details[0m
+2023.08.30 16:04:22 WARN  1226 feature warnings; re-run with -feature for details[0m
+2023.08.30 16:04:22 INFO  time: compiled CoupledL2 in 15s[0m
+2023.08.30 16:04:22 INFO  compiling coupledl2.test (6 scala sources)[0m
+2023.08.30 16:04:25 WARN  68 deprecations (since Chisel 3.5); re-run with -deprecation for details[0m
+2023.08.30 16:04:25 WARN  1226 feature warnings; re-run with -feature for details[0m
+2023.08.30 16:04:25 INFO  compiling coupledl2.test (6 scala sources)[0m
+2023.08.30 16:04:30 WARN  20 deprecations (since Chisel 3.5); re-run with -deprecation for details[0m
+2023.08.30 16:04:30 INFO  time: compiled CoupledL2.test in 4.41s[0m
+2023.08.30 16:04:33 WARN  20 deprecations (since Chisel 3.5); re-run with -deprecation for details[0m
+2023.08.30 16:07:30 WARN  no build target for: /home/yikun/workspace/CoupledL2/build.sc[0m
+2023.08.30 16:09:20 INFO  compiling coupledl2.test (1 scala source)[0m
+Aug 30, 2023 4:09:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 200
+2023.08.30 16:09:25 INFO  time: compiled CoupledL2.test in 5.73s[0m
+2023.08.30 16:35:46 INFO  Shutting down server[0m
+2023.08.30 16:35:46 INFO  shutting down Metals[0m
+2023.08.30 16:35:46 INFO  Shut down connection with build server.[0m
+2023.09.01 10:38:13 INFO  Started: Metals version 1.0.1 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Sep 01, 2023 10:38:13 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 01, 2023 10:38:13 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 01, 2023 10:38:13 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 01, 2023 10:38:14 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Sep 01, 2023 10:38:14 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.048s)
+Sep 01, 2023 10:38:14 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 01, 2023 10:38:14 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.01 10:38:14 INFO  time: initialize in 1.02s[0m
+2023.09.01 10:38:15 INFO  Attempting to connect to the build server...[0m
+2023.09.01 10:38:15 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64/jre defined at /home/yikun/.bloop/bloop.json[0m
+2023.09.01 10:38:16 INFO  skipping build import with status 'Installed'[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.09.01 10:38:31 INFO  no build target found for /home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/MSHR.scala. Using presentation compiler with project's scala-library version: 3.3.0[0m
+2023.09.01 10:38:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yikun/workspace/CoupledL2/.metals/bsp.trace.json or /home/yikun/.cache/metals/bsp.trace.json[0m
+2023.09.01 10:38:32 INFO  time: Connected to build server in 18s[0m
+2023.09.01 10:38:32 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.09.01 10:38:33 INFO  time: Imported build in 0.34s[0m
+2023.09.01 10:38:36 INFO  time: code lens generation in 3.3s[0m
+2023.09.01 10:38:45 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.01 10:38:45 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.01 10:38:45 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.01 10:38:45 INFO  time: indexed workspace in 12s[0m
+Sep 01, 2023 10:38:58 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Sep 01, 2023 10:38:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2023.09.01 17:51:54 INFO  Shutting down server[0m
+2023.09.01 17:51:54 INFO  shutting down Metals[0m
+2023.09.01 17:51:55 INFO  Exiting server[0m
+2023.09.04 09:55:04 INFO  Started: Metals version 1.0.1 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Sep 04, 2023 9:55:05 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 04, 2023 9:55:05 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 04, 2023 9:55:05 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 04, 2023 9:55:05 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Sep 04, 2023 9:55:06 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.048s)
+Sep 04, 2023 9:55:06 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 04, 2023 9:55:06 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.04 09:55:06 INFO  time: initialize in 1.48s[0m
+2023.09.04 09:55:07 INFO  Attempting to connect to the build server...[0m
+2023.09.04 09:55:07 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64/jre defined at /home/yikun/.bloop/bloop.json[0m
+2023.09.04 09:55:07 INFO  skipping build import with status 'Installed'[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.09.04 09:55:17 INFO  no build target found for /home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/MSHR.scala. Using presentation compiler with project's scala-library version: 3.3.0[0m
+2023.09.04 09:55:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yikun/workspace/CoupledL2/.metals/bsp.trace.json or /home/yikun/.cache/metals/bsp.trace.json[0m
+2023.09.04 09:55:18 INFO  time: Connected to build server in 11s[0m
+2023.09.04 09:55:18 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.09.04 09:55:19 INFO  time: Imported build in 0.37s[0m
+2023.09.04 09:55:20 INFO  no build target found for /home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/MSHR.scala. Using presentation compiler with project's scala-library version: 3.3.0[0m
+Sep 04, 2023 9:55:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2023.09.04 09:55:25 INFO  time: code lens generation in 6.4s[0m
+2023.09.04 09:55:25 INFO  time: code lens generation in 4.1s[0m
+2023.09.04 09:55:25 INFO  time: code lens generation in 3.13s[0m
+2023.09.04 09:55:26 INFO  no build target found for /home/yikun/workspace/CoupledL2/src/test/scala/TestTop.scala. Using presentation compiler with project's scala-library version: 2.12.13[0m
+2023.09.04 09:55:35 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.04 09:55:35 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.04 09:55:35 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.04 09:55:36 INFO  time: indexed workspace in 16s[0m
+Sep 04, 2023 9:55:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Exception in thread "pool-8-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+Sep 04, 2023 9:55:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Sep 04, 2023 9:55:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Sep 04, 2023 9:55:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2023.09.04 16:43:59 INFO  Shutting down server[0m
+2023.09.04 16:43:59 INFO  shutting down Metals[0m
+2023.09.04 16:44:01 INFO  Shut down connection with build server.[0m
+2023.09.04 17:46:18 INFO  Started: Metals version 1.0.1 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Sep 04, 2023 5:46:18 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 04, 2023 5:46:19 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 04, 2023 5:46:19 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 04, 2023 5:46:19 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Sep 04, 2023 5:46:19 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.087s)
+Sep 04, 2023 5:46:19 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 04, 2023 5:46:19 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.04 17:46:19 INFO  time: initialize in 1.31s[0m
+2023.09.04 17:46:20 INFO  Attempting to connect to the build server...[0m
+2023.09.04 17:46:20 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64/jre defined at /home/yikun/.bloop/bloop.json[0m
+2023.09.04 17:46:20 INFO  skipping build import with status 'Installed'[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.09.04 17:46:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yikun/workspace/CoupledL2/.metals/bsp.trace.json or /home/yikun/.cache/metals/bsp.trace.json[0m
+2023.09.04 17:46:27 INFO  time: Connected to build server in 7.34s[0m
+2023.09.04 17:46:27 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.09.04 17:46:28 INFO  time: Imported build in 0.28s[0m
+2023.09.04 17:46:41 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.04 17:46:43 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.04 17:46:43 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.04 17:46:43 INFO  time: indexed workspace in 15s[0m
+Sep 04, 2023 6:43:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Sep 04, 2023 6:43:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Sep 04, 2023 6:43:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Sep 04, 2023 6:43:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Sep 04, 2023 6:43:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Sep 04, 2023 6:43:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Sep 04, 2023 6:43:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Sep 04, 2023 6:43:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Sep 04, 2023 6:43:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Sep 04, 2023 6:43:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+Sep 04, 2023 6:43:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+2023.09.04 18:51:21 INFO  Shutting down server[0m
+2023.09.04 18:51:21 INFO  shutting down Metals[0m
+2023.09.04 18:51:23 INFO  Shut down connection with build server.[0m
+2023.09.05 10:19:54 INFO  Started: Metals version 1.0.1 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Sep 05, 2023 10:19:54 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 05, 2023 10:19:54 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 05, 2023 10:19:54 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 05, 2023 10:19:55 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Sep 05, 2023 10:19:55 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.063s)
+Sep 05, 2023 10:19:55 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 05, 2023 10:19:55 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.05 10:19:56 INFO  time: initialize in 2.07s[0m
+2023.09.05 10:19:57 INFO  Attempting to connect to the build server...[0m
+2023.09.05 10:19:57 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64/jre defined at /home/yikun/.bloop/bloop.json[0m
+2023.09.05 10:19:58 INFO  skipping build import with status 'Installed'[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.09.05 10:20:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yikun/workspace/CoupledL2/.metals/bsp.trace.json or /home/yikun/.cache/metals/bsp.trace.json[0m
+2023.09.05 10:20:07 INFO  time: Connected to build server in 10s[0m
+2023.09.05 10:20:07 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.09.05 10:20:08 INFO  time: Imported build in 0.33s[0m
+2023.09.05 10:20:21 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.05 10:20:21 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.05 10:20:21 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.05 10:20:21 INFO  time: indexed workspace in 14s[0m
+2023.09.05 10:49:06 INFO  Shutting down server[0m
+2023.09.05 10:49:06 INFO  shutting down Metals[0m
+2023.09.05 10:49:08 INFO  Shut down connection with build server.[0m
+2023.09.06 11:01:27 INFO  Started: Metals version 1.0.1 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Sep 06, 2023 11:01:27 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 06, 2023 11:01:27 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 06, 2023 11:01:27 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 06, 2023 11:01:28 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Sep 06, 2023 11:01:28 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.034s)
+Sep 06, 2023 11:01:28 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 06, 2023 11:01:28 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.06 11:01:28 INFO  time: initialize in 0.96s[0m
+2023.09.06 11:01:29 INFO  Attempting to connect to the build server...[0m
+2023.09.06 11:01:29 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64/jre defined at /home/yikun/.bloop/bloop.json[0m
+2023.09.06 11:01:29 INFO  skipping build import with status 'Installed'[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.09.06 11:01:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yikun/workspace/CoupledL2/.metals/bsp.trace.json or /home/yikun/.cache/metals/bsp.trace.json[0m
+2023.09.06 11:01:39 INFO  time: Connected to build server in 11s[0m
+2023.09.06 11:01:39 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.09.06 11:01:40 INFO  time: Imported build in 0.52s[0m
+2023.09.06 11:02:02 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.06 11:02:03 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.06 11:02:03 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.06 11:02:03 INFO  time: indexed workspace in 22s[0m
+2023.09.06 14:56:04 INFO  Shutting down server[0m
+2023.09.06 14:56:04 INFO  shutting down Metals[0m
+2023.09.06 14:56:06 INFO  Shut down connection with build server.[0m
+2023.09.06 14:56:57 INFO  Started: Metals version 1.0.1 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Sep 06, 2023 2:56:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 06, 2023 2:56:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 06, 2023 2:56:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 06, 2023 2:56:58 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Sep 06, 2023 2:56:58 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.034s)
+Sep 06, 2023 2:56:58 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 06, 2023 2:56:58 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.06 14:56:58 INFO  time: initialize in 1.18s[0m
+2023.09.06 14:56:59 INFO  Attempting to connect to the build server...[0m
+2023.09.06 14:56:59 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64/jre defined at /home/yikun/.bloop/bloop.json[0m
+2023.09.06 14:57:00 INFO  skipping build import with status 'Installed'[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.09.06 14:57:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yikun/workspace/CoupledL2/.metals/bsp.trace.json or /home/yikun/.cache/metals/bsp.trace.json[0m
+2023.09.06 14:57:06 INFO  time: Connected to build server in 8.06s[0m
+2023.09.06 14:57:06 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.09.06 14:57:08 INFO  time: Imported build in 1.76s[0m
+2023.09.06 14:57:18 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.06 14:57:18 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.06 14:57:18 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.06 14:57:18 INFO  time: indexed workspace in 9.75s[0m
+2023.09.06 16:35:04 INFO  Shutting down server[0m
+2023.09.06 16:35:04 INFO  shutting down Metals[0m
+2023.09.06 16:35:05 INFO  Shut down connection with build server.[0m
+Sep 06, 2023 4:35:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:44)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:349)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:349)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:286)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:122)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:114)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SinkChannelImpl.ensureOpen(SinkChannelImpl.java:154)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:158)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.09.06 16:35:05 INFO  Cancelling compilation on Bloop server[0m
+2023.09.07 11:16:50 INFO  Started: Metals version 1.0.1 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Sep 07, 2023 11:16:50 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 07, 2023 11:16:50 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 07, 2023 11:16:50 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 07, 2023 11:16:51 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Sep 07, 2023 11:16:51 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.039s)
+Sep 07, 2023 11:16:51 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 07, 2023 11:16:51 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.07 11:16:51 INFO  time: initialize in 0.82s[0m
+2023.09.07 11:16:51 INFO  Attempting to connect to the build server...[0m
+2023.09.07 11:16:51 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64/jre defined at /home/yikun/.bloop/bloop.json[0m
+2023.09.07 11:16:52 INFO  skipping build import with status 'Installed'[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.09.07 11:16:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yikun/workspace/CoupledL2/.metals/bsp.trace.json or /home/yikun/.cache/metals/bsp.trace.json[0m
+2023.09.07 11:16:57 INFO  time: Connected to build server in 6.48s[0m
+2023.09.07 11:16:57 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.09.07 11:16:58 INFO  time: Imported build in 0.42s[0m
+2023.09.07 11:17:07 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.07 11:17:07 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.07 11:17:07 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.07 11:17:07 INFO  time: indexed workspace in 9.12s[0m
+2023.09.07 11:37:33 INFO  Shutting down server[0m
+2023.09.07 11:37:33 INFO  shutting down Metals[0m
+2023.09.07 11:37:34 INFO  Shut down connection with build server.[0m
+2023.09.07 11:37:35 INFO  Exiting server[0m
+2023.09.07 17:25:14 INFO  Started: Metals version 1.0.1 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Sep 07, 2023 5:25:14 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 07, 2023 5:25:14 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 07, 2023 5:25:14 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 07, 2023 5:25:15 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Sep 07, 2023 5:25:15 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.079s)
+Sep 07, 2023 5:25:15 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 07, 2023 5:25:15 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.07 17:25:15 INFO  time: initialize in 1.53s[0m
+2023.09.07 17:25:16 INFO  Attempting to connect to the build server...[0m
+2023.09.07 17:25:16 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64/jre defined at /home/yikun/.bloop/bloop.json[0m
+2023.09.07 17:25:16 INFO  skipping build import with status 'Installed'[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.09.07 17:25:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yikun/workspace/CoupledL2/.metals/bsp.trace.json or /home/yikun/.cache/metals/bsp.trace.json[0m
+2023.09.07 17:25:24 INFO  time: Connected to build server in 8.52s[0m
+2023.09.07 17:25:24 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.09.07 17:25:24 INFO  time: Imported build in 0.32s[0m
+2023.09.07 17:25:34 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.07 17:25:34 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.07 17:25:34 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.07 17:25:34 INFO  time: indexed workspace in 9.41s[0m
+2023.09.07 17:35:37 INFO  Shutting down server[0m
+2023.09.07 17:35:37 INFO  shutting down Metals[0m
+2023.09.07 17:35:43 ERROR timeout: build server 'bloop' during shutdown[0m
+2023.09.07 17:39:23 INFO  Started: Metals version 1.0.1 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Sep 07, 2023 5:39:23 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 07, 2023 5:39:23 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 07, 2023 5:39:23 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 07, 2023 5:39:24 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Sep 07, 2023 5:39:24 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.085s)
+Sep 07, 2023 5:39:24 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 07, 2023 5:39:24 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.07 17:39:25 INFO  time: initialize in 2.04s[0m
+2023.09.07 17:39:26 INFO  Attempting to connect to the build server...[0m
+2023.09.07 17:39:26 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64/jre defined at /home/yikun/.bloop/bloop.json[0m
+2023.09.07 17:39:26 INFO  skipping build import with status 'Installed'[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.09.07 17:39:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yikun/workspace/CoupledL2/.metals/bsp.trace.json or /home/yikun/.cache/metals/bsp.trace.json[0m
+2023.09.07 17:39:31 INFO  time: Connected to build server in 5.6s[0m
+2023.09.07 17:39:31 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.09.07 17:39:31 INFO  time: Imported build in 0.25s[0m
+2023.09.07 17:39:41 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.07 17:39:41 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.07 17:39:41 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.07 17:39:41 INFO  time: indexed workspace in 9.95s[0m
+2023.09.07 18:38:05 INFO  Shutting down server[0m
+2023.09.07 18:38:05 INFO  shutting down Metals[0m
+2023.09.07 18:38:13 ERROR timeout: build server 'bloop' during shutdown[0m
+2023.09.07 18:40:28 INFO  Started: Metals version 1.0.1 in folders '/home/yikun/workspace/CoupledL2' for client Visual Studio Code 1.70.0.[0m
+Sep 07, 2023 6:40:29 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 07, 2023 6:40:29 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 07, 2023 6:40:29 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 07, 2023 6:40:30 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/yikun/workspace/CoupledL2/.metals/metals (H2 2.1)
+Sep 07, 2023 6:40:30 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.072s)
+Sep 07, 2023 6:40:30 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 07, 2023 6:40:30 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.07 18:40:31 INFO  time: initialize in 2.03s[0m
+2023.09.07 18:40:32 INFO  Attempting to connect to the build server...[0m
+2023.09.07 18:40:32 INFO  Bloop uses /usr/lib/jvm/java-8-openjdk-amd64/jre defined at /home/yikun/.bloop/bloop.json[0m
+2023.09.07 18:40:32 INFO  skipping build import with status 'Installed'[0m
+DanglingParentheses: top-level presets deprecated; use 'preset' subsection
+2023.09.07 18:40:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yikun/workspace/CoupledL2/.metals/bsp.trace.json or /home/yikun/.cache/metals/bsp.trace.json[0m
+2023.09.07 18:40:37 INFO  time: Connected to build server in 5.32s[0m
+2023.09.07 18:40:37 INFO  Connected to Build server: Bloop v1.5.8[0m
+2023.09.07 18:40:37 INFO  time: Imported build in 0.28s[0m
+2023.09.07 18:40:45 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.07 18:40:45 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.07 18:40:45 WARN  Could not find java sources in /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/lib/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/src.zip, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/src.zip. Java symbols will not be available.[0m
+2023.09.07 18:40:45 INFO  time: indexed workspace in 7.72s[0m

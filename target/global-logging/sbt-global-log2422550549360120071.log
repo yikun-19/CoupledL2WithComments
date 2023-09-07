@@ -1,0 +1,203 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test:runMain coupledL2.TestTop_L2L3L2, Some(59504499-ce1c-4079-b5cf-d0489bf2e77a), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / runMain[0m
+[0m[[0m[33mwarn[0m] [0m[0msbt 0.13 shell syntax is deprecated; use slash syntax instead: Test / runMain[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 37 Scala sources to /home/yikun/workspace/CoupledL2/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/AcquireUnit.scala:22:8: not found: object utility[0m
+[0m[[0m[31merror[0m] [0m[0mimport utility._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/AcquireUnit.scala:23:8: not found: object freechips[0m
+[0m[[0m[31merror[0m] [0m[0mimport freechips.rocketchip.tilelink._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/AcquireUnit.scala:24:8: not found: object freechips[0m
+[0m[[0m[31merror[0m] [0m[0mimport freechips.rocketchip.tilelink.TLMessages._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/AcquireUnit.scala:25:8: not found: object chipsalliance[0m
+[0m[[0m[31merror[0m] [0m[0mimport chipsalliance.rocketchip.config.Parameters[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/AcquireUnit.scala:26:8: not found: object huancun[0m
+[0m[[0m[31merror[0m] [0m[0mimport huancun.{PreferCacheKey}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:24:8: not found: object freechips[0m
+[0m[[0m[31merror[0m] [0m[0mimport freechips.rocketchip.tilelink.TLPermissions._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/AcquireUnit.scala:28:31: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass AcquireUnit(implicit p: Parameters) extends L2Module {[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:22:8: not found: object chipsalliance[0m
+[0m[[0m[31merror[0m] [0m[0mimport chipsalliance.rocketchip.config.Parameters[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:26:41: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mabstract class L2Module(implicit val p: Parameters) extends MultiIOModule with HasCoupledL2Parameters[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/CoupledL2.scala:25:8: not found: object freechips[0m
+[0m[[0m[31merror[0m] [0m[0mimport freechips.rocketchip.diplomacy._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/CoupledL2.scala:26:8: not found: object freechips[0m
+[0m[[0m[31merror[0m] [0m[0mimport freechips.rocketchip.tilelink._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/CoupledL2.scala:27:8: not found: object freechips[0m
+[0m[[0m[31merror[0m] [0m[0mimport freechips.rocketchip.tilelink.TLMessages._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/CoupledL2.scala:28:8: not found: object freechips[0m
+[0m[[0m[31merror[0m] [0m[0mimport freechips.rocketchip.util._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/CoupledL2.scala:29:8: not found: object chipsalliance[0m
+[0m[[0m[31merror[0m] [0m[0mimport chipsalliance.rocketchip.config.Parameters[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/CoupledL2.scala:35:10: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0m  val p: Parameters[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/AcquireUnit.scala:30:35: not found: type TLBundleA[0m
+[0m[[0m[31merror[0m] [0m[0m    val sourceA = DecoupledIO(new TLBundleA(edgeOut.bundle))[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:211:30: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass SourceAReq(implicit p: Parameters) extends L2Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:27:41: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mabstract class L2Bundle(implicit val p: Parameters) extends Bundle with HasCoupledL2Parameters[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:29:32: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass ReplacerInfo(implicit p: Parameters) extends L2Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:44:30: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass TaskBundle(implicit p: Parameters) extends L2Bundle with HasChannelBits {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:48:59: value W is not a member of Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m  val alias = aliasBitsOpt.map(_ => UInt(aliasBitsOpt.get.W)) // color bits in cache-alias issue[0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:49:59: value W is not a member of Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m  val vaddr = vaddrBitsOpt.map(_ => UInt(vaddrBitsOpt.get.W)) // vaddr passed by client cache[0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/CoupledL2.scala:24:8: not found: object utility[0m
+[0m[[0m[31merror[0m] [0m[0mimport utility.{FastArbiter, Pipeline}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Directory.scala:26:8: not found: object freechips[0m
+[0m[[0m[31merror[0m] [0m[0mimport freechips.rocketchip.tilelink.TLMessages._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Directory.scala:25:8: not found: object chipsalliance[0m
+[0m[[0m[31merror[0m] [0m[0mimport chipsalliance.rocketchip.config.Parameters[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Directory.scala:28:29: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass MetaEntry(implicit p: Parameters) extends L2Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:91:30: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass PipeStatus(implicit p: Parameters) extends L2Bundle with HasChannelBits[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:93:38: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass PipeEntranceStatus(implicit p: Parameters) extends L2Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:109:30: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass MSHRStatus(implicit p: Parameters) extends L2Bundle with HasChannelBits {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:138:31: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass MSHRRequest(implicit p: Parameters) extends L2Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Directory.scala:71:29: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass DirResult(implicit p: Parameters) extends L2Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:185:28: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass FSMState(implicit p: Parameters) extends L2Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:145:28: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass MSHRInfo(implicit p: Parameters) extends L2Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:169:34: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass RespInfoBundle(implicit p: Parameters) extends L2Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:177:30: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass RespBundle(implicit p: Parameters) extends L2Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:216:20: not found: value aWidth[0m
+[0m[[0m[31merror[0m] [0m[0m  val param = UInt(aWidth.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:222:30: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass SourceBReq(implicit p: Parameters) extends L2Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:227:20: not found: value bdWidth[0m
+[0m[[0m[31merror[0m] [0m[0m  val param = UInt(bdWidth.W)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:228:59: value W is not a member of Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m  val alias = aliasBitsOpt.map(_ => UInt(aliasBitsOpt.get.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:231:29: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass BlockInfo(implicit p: Parameters) extends L2Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:239:35: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass NestedWriteback(implicit p: Parameters) extends L2Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Common.scala:252:30: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass L2ToL1Hint(implicit p: Parameters) extends Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:24:8: not found: object freechips[0m
+[0m[[0m[31merror[0m] [0m[0mimport freechips.rocketchip.tilelink._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:36:17: not found: value TLMessages[0m
+[0m[[0m[31merror[0m] [0m[0m    (opcode === TLMessages.Hint && param === TLHints.PREFETCH_WRITE) ||[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:36:46: not found: value TLHints[0m
+[0m[[0m[31merror[0m] [0m[0m    (opcode === TLMessages.Hint && param === TLHints.PREFETCH_WRITE) ||[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:37:18: not found: value TLMessages[0m
+[0m[[0m[31merror[0m] [0m[0m    ((opcode === TLMessages.AcquireBlock || opcode === TLMessages.AcquirePerm) && param =/= TLPermissions.NtoB)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:37:56: not found: value TLMessages[0m
+[0m[[0m[31merror[0m] [0m[0m    ((opcode === TLMessages.AcquireBlock || opcode === TLMessages.AcquirePerm) && param =/= TLPermissions.NtoB)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:37:93: not found: value TLPermissions[0m
+[0m[[0m[31merror[0m] [0m[0m    ((opcode === TLMessages.AcquireBlock || opcode === TLMessages.AcquirePerm) && param =/= TLPermissions.NtoB)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:45:16: not found: value TLMessages[0m
+[0m[[0m[31merror[0m] [0m[0m    opcode === TLMessages.AcquireBlock || opcode === TLMessages.AcquirePerm || opcode === TLMessages.Get[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:45:54: not found: value TLMessages[0m
+[0m[[0m[31merror[0m] [0m[0m    opcode === TLMessages.AcquireBlock || opcode === TLMessages.AcquirePerm || opcode === TLMessages.Get[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:45:91: not found: value TLMessages[0m
+[0m[[0m[31merror[0m] [0m[0m    opcode === TLMessages.AcquireBlock || opcode === TLMessages.AcquirePerm || opcode === TLMessages.Get[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:48:15: not found: value TLPermissions[0m
+[0m[[0m[31merror[0m] [0m[0m    param === TLPermissions.TtoN || param === TLPermissions.BtoN || param === TLPermissions.NtoN[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:48:47: not found: value TLPermissions[0m
+[0m[[0m[31merror[0m] [0m[0m    param === TLPermissions.TtoN || param === TLPermissions.BtoN || param === TLPermissions.NtoN[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:48:79: not found: value TLPermissions[0m
+[0m[[0m[31merror[0m] [0m[0m    param === TLPermissions.TtoN || param === TLPermissions.BtoN || param === TLPermissions.NtoN[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:51:15: not found: value TLPermissions[0m
+[0m[[0m[31merror[0m] [0m[0m    param === TLPermissions.TtoB || param === TLPermissions.BtoB[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:51:47: not found: value TLPermissions[0m
+[0m[[0m[31merror[0m] [0m[0m    param === TLPermissions.TtoB || param === TLPermissions.BtoB[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:55:15: not found: value TLPermissions[0m
+[0m[[0m[31merror[0m] [0m[0m    param === TLPermissions.TtoN || param === TLPermissions.TtoB || param === TLPermissions.TtoT[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:55:47: not found: value TLPermissions[0m
+[0m[[0m[31merror[0m] [0m[0m    param === TLPermissions.TtoN || param === TLPermissions.TtoB || param === TLPermissions.TtoT[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:55:79: not found: value TLPermissions[0m
+[0m[[0m[31merror[0m] [0m[0m    param === TLPermissions.TtoN || param === TLPermissions.TtoB || param === TLPermissions.TtoT[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:58:15: not found: value TLHints[0m
+[0m[[0m[31merror[0m] [0m[0m    param === TLHints.PREFETCH_WRITE && !isT(state) ||[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:59:15: not found: value TLHints[0m
+[0m[[0m[31merror[0m] [0m[0m    param === TLHints.PREFETCH_READ && state === INVALID[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:63:11: not found: value TLPermissions[0m
+[0m[[0m[31merror[0m] [0m[0m      Seq(TLPermissions.NtoB, TLPermissions.NtoT, TLPermissions.BtoT).map(param === _),[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:63:31: not found: value TLPermissions[0m
+[0m[[0m[31merror[0m] [0m[0m      Seq(TLPermissions.NtoB, TLPermissions.NtoT, TLPermissions.BtoT).map(param === _),[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yikun/workspace/CoupledL2/src/main/scala/coupledL2/Consts.scala:63:51: not found: value TLPermissions[0m
+[0m[[0m[31merror[0m] [0m[0m      Seq(TLPermissions.NtoB, TLPermissions.NtoT, TLPermissions.BtoT).map(param === _),[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mCanceling execution...[0m
+[0m[[0m[31merror[0m] [0m[0m64 errors found[0m
+[0m[[0m[31merror[0m] [0m[0mCancelled: test:runMain coupledL2.TestTop_L2L3L2[0m
+[0m[[0m[31merror[0m] [0m[0mCancelled: test:runMain coupledL2.TestTop_L2L3L2[0m
+[0m[[0m[31merror[0m] [0m[0mUse 'last' for the full log.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
